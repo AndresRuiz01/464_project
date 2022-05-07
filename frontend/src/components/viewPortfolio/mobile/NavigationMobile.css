@@ -1,0 +1,37 @@
+#mobile-nav-bar{
+  width: 100vw;
+  height: 30px;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-link-mobile {
+  padding: 0px 15px;
+  font-size: 12px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nav-link-mobile.active {
+  color: black;
+}
+
+#name-heading-mobile {
+  padding-left: 50px;
+  font-size: 15px;
+  height: 20px;
+}
+
+#navigate-back-mobile {
+  position: absolute;
+  z-index: 3;
+  top: 15px;
+  left: 15px;
+  height: 30px;
+}
+
+#navigate-back-mobile:hover {
+  cursor: pointer;
+}

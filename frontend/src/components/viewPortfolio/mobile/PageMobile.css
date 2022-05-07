@@ -1,0 +1,38 @@
+.page-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.project-image-mobile {
+  width: 70vw;
+}
+
+.project-title-mobile {
+  color: black;
+  text-align: center;
+}
+
+.project-mobile {
+  padding: 20px 0px;
+}
+
+.project-description-mobile {
+  width: 70vw;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#resume-document-mobile {
+  width: 90vw;
+  height: calc(100vh - 150px);
+}
+
+.about-mobile {
+  font-size: 15px;
+  width: 85vw;
+  padding: 10px 20px;
+  white-space: pre-line;
+}

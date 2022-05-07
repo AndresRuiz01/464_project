@@ -1,0 +1,26 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+#login-heading {
+  display: flex;
+  justify-content: center;
+}
+
+#submit-line {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#register {
+  color: blue;
+  border-bottom: 1px solid blue;
+}
